@@ -4,9 +4,13 @@ class Program
 {
     static void Main()
     {
+
         int a = 5;  
         int b = 7;  
         Console.WriteLine("The sum of {0} and {1} is: {2}", a, b, a + b);
         Console.WriteLine("The subtraction of {0} from {1} is: {2}", a, b, b - a);
+ Features
+        Console.WriteLine("The product of {0} and {1} is: {2}", a, b, a * b);
+ Models
     }
 }
